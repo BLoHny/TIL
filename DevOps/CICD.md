@@ -1,6 +1,7 @@
 # CI
 
-![](/TIL/img/CI.png){: width="150" height="150"}
+<img src="./img/CI.png" width ="400" height ="400" />
+
 ```
 CI란 새로운 코드 변경 사항이 정기적으로 빌드 및 테스트 되어
 공유 레포지토리에 통합히는 것을 의미 = 지속적인 통합
@@ -15,7 +16,7 @@ CI란 새로운 코드 변경 사항이 정기적으로 빌드 및 테스트 되
 <br><br>
 # CD
 
-![](/TIL/img/CD.png){: width="150" height="150"}
+<img src="./img/CD.png" width ="400" height ="400" />
 
 ```
 CD란 지속적인 서비스 제공 혹은 지속적인 배포 라는 뜻으로    
