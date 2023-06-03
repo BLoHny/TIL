@@ -43,30 +43,7 @@ Logger 자동 생성 가능
 
 ### @Builder<br>
 Buillder 자동 생성<br> <br>
-@Singular 어노테이션 사용시 원소를 하나씩 추가할 수 있다.
 
-<br>
-
-### @Builder + @Singular 예제
-
-```java
-@Builder
-public class Movie {
-	private String title;
-    @Singular
-    private List<String> actress;
-}
-
-// movie(title="삼진그룹 영어토익반", actress= ["고아성", "이솜", "박혜수"])
-Movie movie = Movie.builder()
-				.title("삼진그룹 영어토익반")
-                .actress("고아성")
-                .actress("이솜")
-                .actress("박혜수")
-                .build();
-```
-
-<br>
 
 `toString()` : 객체의 값들을 문자열로 변환후 반환 <br>
 `equals()` : 동등성 비교 연산자  <br>
